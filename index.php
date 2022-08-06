@@ -7,10 +7,6 @@
     <title>Rupees to Dollar convertor</title>
 </head>
 <body>
-    <?php
-    if(isset($_POST['rup'])) $doll=80*$_POST['rup'];
-    else $doll=1;
-    ?>
     <h1> Welcome to our website </h1>
     <p> You can convert your rupees to dollar using our service </p>
 <form method="post" action='index.php' >
@@ -18,8 +14,5 @@
     <br>
     <input type="submit" value="Convert" >
 </form>
-<?php
-    echo "Your amount in Dollar is $doll<br>";
-?>
 </body>
 </html>
