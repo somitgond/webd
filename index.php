@@ -9,10 +9,5 @@
 <body>
     <h1> Welcome to our website </h1>
     <p> You can convert your rupees to dollar using our service </p>
-<form method="post" action='index.php' >
-    Enter Amount in Rupees <input type="text" name="rup" placeholder="Enter rupees">
-    <br>
-    <input type="submit" value="Convert" >
-</form>
 </body>
 </html>
